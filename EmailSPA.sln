@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSPA.API", "EmailSPA.API\EmailSPA.API.csproj", "{5022D8E5-D1ED-4EB2-8EE8-91C7134422E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSPA.BusinessServices", "EmailSPA.BusinessServices\EmailSPA.BusinessServices.csproj", "{90605F63-B5AC-461C-BCFF-9288C6777BAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSPA.BusinessModel", "EmailSPA.BusinessModel\EmailSPA.BusinessModel.csproj", "{D19B799F-CD9A-4FB3-8165-2D99ACD27B90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSPA.UI", "EmailSPA.UI\EmailSPA.UI.csproj", "{7656FAF5-1897-480C-BD5D-321A6732810E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5022D8E5-D1ED-4EB2-8EE8-91C7134422E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5022D8E5-D1ED-4EB2-8EE8-91C7134422E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5022D8E5-D1ED-4EB2-8EE8-91C7134422E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5022D8E5-D1ED-4EB2-8EE8-91C7134422E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90605F63-B5AC-461C-BCFF-9288C6777BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90605F63-B5AC-461C-BCFF-9288C6777BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90605F63-B5AC-461C-BCFF-9288C6777BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90605F63-B5AC-461C-BCFF-9288C6777BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19B799F-CD9A-4FB3-8165-2D99ACD27B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19B799F-CD9A-4FB3-8165-2D99ACD27B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19B799F-CD9A-4FB3-8165-2D99ACD27B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19B799F-CD9A-4FB3-8165-2D99ACD27B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7656FAF5-1897-480C-BD5D-321A6732810E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7656FAF5-1897-480C-BD5D-321A6732810E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7656FAF5-1897-480C-BD5D-321A6732810E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7656FAF5-1897-480C-BD5D-321A6732810E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

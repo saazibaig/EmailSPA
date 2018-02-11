@@ -1,0 +1,74 @@
+﻿@model EmailSPA.BusinessModel.EmailModel
+
+@{
+    ViewBag.Title = "Email";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<form class="form form-horizontal" method="post">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                @Html.LabelFor(m => m.Subject, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Subject, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Subject)
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                @Html.LabelFor(m => m.RecipientList, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.RecipientList, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.RecipientList)
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                @Html.LabelFor(m => m.CcRecipientList, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.CcRecipientList, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.CcRecipientList)
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                @Html.LabelFor(m => m.BccRecipientList, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.BccRecipientList, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.BccRecipientList)
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                @Html.LabelFor(m => m.Body, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextAreaFor(m => m.Body, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Body)
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <button type="submit">Send</button>
+                @Html.DisplayTextFor(m => m.StatusMessage)
+            </div>
+        </div>
+    </div>
+</form>
+
