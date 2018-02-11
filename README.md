@@ -77,6 +77,7 @@ Although all the requirements from Single Page web app challenge has been meet e
 
 
 Deployment:
+		
 		Publish EmailSPA.API and EmailSPA.UI individually and deploy on web server. The url of API need to be mentioned in UI web.config file. The email form in UI will be accessed through this url
 
 http://xxxxxxxx/home/email
